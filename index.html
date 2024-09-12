@@ -6,7 +6,7 @@
     font-family: monospace;
     font-size: xx-large;
     color: #FFFFFF;
-    padding: 5px;
+    padding-top: 7px;
     border: 3px solid #F9DE96;
     text-align: center;
     line-height: 1.5;
@@ -45,11 +45,11 @@ body{
     var greet;
 
     if (hrs < 12)
-        greet = '<br>Good Morning,  ';
+        greet = 'Good Morning,  ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = '<br>Good Afternoon, ';
+        greet = 'Good Afternoon, ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = '<br>Good Evening,  ';
+        greet = 'Good Evening,  ';
 
     document.getElementById('lbl').innerHTML =
          greet+= "MaKenzie. " +`<div id="date"> It's ${date}</div>`;
